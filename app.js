@@ -188,7 +188,7 @@ app.get("/n/:idN", (request, response) => {
                 <meta http-equiv="X-UA-Compatible" content="IE=edge">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>Rona.li | ${bodyDB.title}</title>
-                <link rel="stylesheet" href="https://${request.headers.host}/style.css">
+                <link rel="stylesheet" href="https://${request.headers.host}/styles.css">
             </head>
             <body>
                 <nav>
